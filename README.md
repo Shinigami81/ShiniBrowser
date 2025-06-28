@@ -220,6 +220,10 @@ Found a bug? Want to add a feature?
 
 This project is open source. Use it, modify it, share it!
 
+This tool is provided for educational and personal use only.
+The author assumes no responsibility for any misuse or illegal activity carried out using this software.
+By using this tool, you agree that you are solely responsible for your actions and for complying with all applicable laws and terms of service of third-party platforms.
+
 ---
 
 ## 🙏 Acknowledgments
