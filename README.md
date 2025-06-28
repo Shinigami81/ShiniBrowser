@@ -18,7 +18,7 @@ Simple to use, powerful as a browser... but ninja. 🥷
 - 🗂 Persistent search history
 - 🎨 Readable and formatted output with rich
 - 🔐 API key stored locally and securely
-- 🧼 Uninstallation script included
+
 
 ---
 
