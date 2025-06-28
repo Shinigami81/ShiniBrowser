@@ -50,15 +50,15 @@ shini-history
 
 Open a terminal and run:
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yourusername/shinibrowser/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/Shinigami81/shinibrowser/main/shinibrowser_installer.sh)
 ```
 
 Or clone the repo manually:
 ```bash
-git clone https://github.com/yourusername/shinibrowser.git
+git clone https://github.com/Shinigami81/ShiniBrowser.git
 cd shinibrowser
-chmod +x install.sh
-./install.sh
+chmod +x shinibrowser_installer.sh
+./shinibrowser_installer.sh
 ```
 
 During installation, you'll be asked to paste your API Key.
@@ -85,11 +85,17 @@ $HOME/.shinibrowser/config.env
 ## 🧽 Uninstallation
 
 Want to remove everything?
+
+download the uninstaller from this repository
+
 ```bash
-bash uninstall.sh
+bash <(curl -s https://raw.githubusercontent.com/Shinigami81/shinibrowser/main/shinibrowser_uninstaller.sh)
+chmod +x shinibrowser_uinstaller.sh
+./shinibrowser_uinstaller.sh
 ```
 
 Or delete manually:
+
 ```bash
 rm -rf $HOME/.shinibrowser
 sed -i '/shinibrowser/d' ~/.bashrc ~/.zshrc
@@ -124,7 +130,7 @@ sed -i '/shinibrowser/d' ~/.bashrc ~/.zshrc
 
 Created with passion by [Shinigami](https://github.com/yourusername) 🧠⚔️
 
-With dark and loving assistance from Claude 🤖
+With dark and loving assistance from Claude and ChatGPT, who helped clean and harmonize my messy code 🤖
 
 ---
 
